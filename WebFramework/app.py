@@ -57,7 +57,7 @@ class WebApplication:
 
     def find_handler(self, target_path):
         """
-        Searches and finds the apprpriate handler with the help of the parse library
+        Searches and finds the appropriate handler with the help of the parse library
 
         :param target_path: The url path assosiated with the handler
         :returns: The handler function with the parsed url parameters
@@ -84,6 +84,7 @@ class WebApplication:
         
         if handler is not None:
             if inspect.isclass(handler):
+                # If it's a class handler, call the correct function based on the request's method
                 handler = getattr(handler(), request.method.lower())
 
             handler(request, response, **kwargs)
