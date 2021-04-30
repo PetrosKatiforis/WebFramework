@@ -7,8 +7,8 @@ Some of the framework's features:
   - Template support using Jinja2
   - Static files with whitenoise
   - Url parameters `` /users/{username} `` using the parse library.
-  - Class-based and function handler with the ``app.route()`` decorator
-  - Respond to different methods using the `` request.method `` attribute or by naming class handlers after the request's name
+  - Class-based and function handlers with the ``app.route()`` decorator
+  - Respond to different methods using the `` request.method `` attribute or by naming your class methods after the request's name
 
 
 ## Sample Usage
