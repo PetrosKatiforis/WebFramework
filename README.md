@@ -2,6 +2,7 @@
 
 This repository consists of a simple web framework written in python. 
 The code follows a basic Request-Response pattern.
+You can run your app using any sort of wsgi webserver such as Gunicorn or Nginx.
 
 Some of the framework's features:
   - Template support using Jinja2
