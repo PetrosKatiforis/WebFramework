@@ -1,7 +1,7 @@
 # Simple Python Web Framework
 
 This repository consists of a simple web framework written in python. 
-The code follows a basic Request-Response pattern.
+The code follows a basic Request-Response pattern.<br>
 You can run your app using any sort of wsgi webserver such as Gunicorn or Nginx.
 
 Some of the framework's features:
